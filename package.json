@@ -3,7 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "devDependencies": {},
+  "scripts": {
+    "storybook": "start-storybook -p 6006"
+  },
+  "devDependencies": {
+    "@storybook/addon-docs": "^5.3.21",
+    "@storybook/react": "^5.3.21"
+  },
   "peerDependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
